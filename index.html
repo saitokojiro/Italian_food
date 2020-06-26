@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="screen and (device-height: 1080px)" />
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+        integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+        crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+        integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+        crossorigin=""></script>
+
+
+    <script src='https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.css' rel='stylesheet' />
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets\CSS\index.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <div class="container">
+        <div class="block-one">
+            <div class="header">
+                <div class="logo-cont">
+                    <div class="logo_div">
+                        <img src="/assets/img/Olive_dp.png" alt="">
+                        <div class="olive">
+                            <span>olive</span>
+                        </div>
+
+                    </div>
+                </div>
+
+                <ul class="menu-list">
+                    <li class="menu-li">Home</li>
+                    <li class="menu-li">About</li>
+                    <li class="menu-li">Order</li>
+                    <li class="menu-li">Contact Us</li>
+                </ul>
+            </div>
+
+
+            <div class="di-title-bl-o">
+                <div class="sp-title-bl-o">
+                    <span class="the">The</span>
+                    <span class="italian">Italian</span>
+                    <br>
+                    <span class="restaurant">Restaurant</span>
+                </div>
+                <button class="book-btn">Book Now</button>
+            </div>
+
+        </div>
+        <div class="block-two">
+            <div class="block-two-center">
+                <img src="./assets/img/logo_block_two_pasta.png" alt="">
+                <div class="block-desc">
+                    <h2>About Us</h2>
+                    <span class="block-desc-p">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
+                        maecenas accumsan lacus vel facilisis.
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="block-three">
+            <div class="bt-sect">
+                <img src="assets\img\logo_block_three_pasta.png" alt="" class="food-spag">
+                <div class="bt-pr-b">
+                    <h3 class="bt-pr-tl">We would love to know what you think</h3>
+                    <p class="bt-pr">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna</p>
+                    <button class="bt-btn">Contact Us!</button>
+                </div>
+            </div>
+
+        </div>
+        <div class="block-four">
+            <div class="bk-four-sec">
+                <div class='bk-f-title'>
+                    <h2>Our golden dishes</h2>
+                </div>
+
+                <div class="block_four_mp">
+                    <div class="pl_one">
+                        <img src="./assets/img/spaguetti_a_la_italiana.png" alt="">
+                        <span>Spaguetti a la italiana</span>
+                    </div>
+                    <div class="pl_one">
+                        <img src="./assets/img/orange_mousse.png" alt="">
+                        <span>Orange Mousse</span>
+                    </div>
+                    <div class="pl_one">
+                        <img src="./assets/img/our_nonnas_lasagna.png" alt="">
+                        <span>Our Nonna’s Lasagna</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="block-five">
+            <div class="bkf-tl-al">
+                <div class="bkf-tl-m">
+                    <h1>First time here?</h1>
+                </div>
+                <div class="bkf-tl-sec">
+                    click here to get your discount code
+                </div>
+            </div>
+            <button class="bkf-btn">$100</button>
+            <div class="bkf-cut-img">
+                <img src="./assets/img/pasta_price.png" alt="" class="bkf-img">
+            </div>
+
+        </div>
+        <div class="block-six">
+        </div>
+        <div class="block-seven">
+            <span class="bks-cit">‘’what is done in love is well done’’</span>
+            <span class="bks-art">Vincent Van Gogh</span>
+
+
+
+        </div>
+        <div class="block-eight">
+            <div id="mapid"></div>
+            <div class="mask_loc">
+            </div>
+            <div class="info-loc">
+                <span class="info-l-t">find us at</span>
+                <span class="info-l-p">101 ST, Buenos Aires</span>
+                <span class="info-l-tm">opening hours:</span>
+                <span class="info-l-h">9:00 - 00:00</span>
+            </div>
+        </div>
+
+        <div class="block-nine">
+            <div class="border-up"></div>
+            <div class="sec-about">
+                <div class="sec-bk-one">
+                    <div class="sc-bk-title">ABOUT</div>
+                    <div class="sc-bk-par"> Lorem ipsum dolor sit amet, consec<br>
+                        tetur adipisicing elit, sed do eiusmod tempor incididunt ultimam quantum </div>
+                </div>
+                <div class="sec-bk-two">
+                    <div class="sc-bk-title">ABOUT</div>
+                    <ul class="ref_about">
+                        <li><a href="#">Team</a></li>
+                        <li><a href="#">Joins us</a></li>
+                        <li><a href="#">Ethic</a></li>
+                        <li><a href="#">Goals</a></li>
+                    </ul>
+                </div>
+                <div class="sec-bk-three">
+                    <div class="sc-bk-title">ABOUT</div>
+                    <ul class="ref_about">
+                        <li><a href="#">Team</a></li>
+                        <li><a href="#">Joins us</a></li>
+                        <li><a href="#">Ethic</a></li>
+                        <li><a href="#">Goals</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="bk-social">
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter-square"></i>
+                <i class="fab fa-whatsapp"></i>
+            </div>
+            <div class="border-down"></div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
+<script>
+    var mymap = L.map('mapid', {
+        zoomControl: false,
+        scrollWheelZoom: false
+    }).setView([47.6140077, -122.3283304], 20);
+    L.tileLayer(
+        'https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+            attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+            maxZoom: 18,
+            id: 'mapbox/streets-v11',
+            tileSize: 512,
+            zoomOffset: -1,
+            accessToken: 'pk.eyJ1Ijoic2FpdG9rb2ppcm8iLCJhIjoiY2tidzBvanl5MDczYjJybXMxaWMya2czbyJ9.kXw2i5-wpE_I5ybgVjvjCQ'
+        }).addTo(mymap);
+    var marker = L.marker([47.6140077, -122.3283304]).addTo(mymap);
+</script>
