@@ -140,7 +140,7 @@ transform-origin: center;*/
 .book-btn {
     margin-left: 88%;
     margin-top: -7.4%;
-    font-family: AvenirLTStd-Book;
+    font-family: 'Lato', sans-serif;
     position: absolute;
     color: rgba(255, 255, 255, 1);
     background-color: #BF964B;
@@ -156,7 +156,7 @@ transform-origin: center;*/
     white-space: nowrap;
     line-height: 146.10px;
     text-align: left;
-    font-family: AnticDidone-Regular;
+    font-family: 'Antic Didone', serif;
     font-size: 76.7385482788086px;
     color: rgba(255, 255, 255, 1);
 }
@@ -165,7 +165,7 @@ transform-origin: center;*/
     white-space: nowrap;
     line-height: 146.10px;
     text-align: left;
-    font-family: AnticDidone-Regular;
+    font-family: 'Antic Didone', serif;
     font-size: 121.75px;
     color: rgba(255, 255, 255, 1);
 }
@@ -174,7 +174,7 @@ transform-origin: center;*/
     white-space: nowrap;
     line-height: 146.10px;
     text-align: left;
-    font-family: AnticDidone-Regular;
+    font-family: 'Antic Didone', serif;
     font-size: 121.75px;
     color: rgba(255, 255, 255, 1);
 }
@@ -211,7 +211,7 @@ transform-origin: center;*/
 
 .block-desc>h2 {
     text-align: left;
-    font-family: AnticDidone-Regular;
+    font-family: 'Antic Didone', serif;
     font-size: 76.95px;
     color: rgba(255, 255, 255, 1);
 }
@@ -253,6 +253,7 @@ transform-origin: center;*/
 .bt-pr-tl {
     color: rgba(255, 255, 255, 1);
     font-size: 3.5em;
+    font-family: 'Antic Didone', serif;
 
 }
 
@@ -268,6 +269,7 @@ transform-origin: center;*/
     margin-top: 10%;
     font-size: 2.1em;
     padding: 3%;
+    font-family: 'Lato', sans-serif;
     color: rgba(255, 255, 255, 1);
 }
 
@@ -299,7 +301,7 @@ transform-origin: center;*/
 .bk-f-title>h2 {
     text-align: center;
     font-size: 5em;
-    font-family: AvenirLTStd-Light;
+    font-family: 'Antic Didone', serif;
     color: rgba(255, 255, 255, 1);
 }
 
@@ -357,9 +359,14 @@ transform-origin: center;*/
 .bkf-tl-al {
     position: absolute;
     margin-left: 25%;
-    margin-top: 250px;
+    margin-top: 10%;
     font-size: 3.15em;
-    font-family: AnticDidone-Regular
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Lato', sans-serif;
+}
+
+.bkf-tl-m {
+    font-family: 'Antic Didone', serif;
 }
 
 /*---------------------------------------------------*/
@@ -387,6 +394,7 @@ transform-origin: center;*/
     background-color: #BF964B;
     color: rgba(255, 255, 255, 1);
     font-size: 4.5em;
+    font-family: 'Lato', sans-serif;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -438,23 +446,27 @@ transform-origin: center;*/
 
 .info-l-t {
     font-size: 7em;
+    font-family: 'Lato', sans-serif;
     color: rgba(255, 255, 255, 1);
 }
 
 .info-l-p {
     margin-top: 60px;
     font-size: 2em;
+    font-family: 'Lato', sans-serif;
     color: rgba(255, 255, 255, 1);
 }
 
 .info-l-tm {
     margin-top: 60px;
     font-size: 2em;
+    font-family: 'Lato', sans-serif;
     color: rgba(255, 255, 255, 1);
 }
 
 .info-l-h {
     font-size: 2em;
+    font-family: 'Lato', sans-serif;
     color: rgba(255, 255, 255, 1);
 
 }
@@ -485,6 +497,7 @@ transform-origin: center;*/
 .sec-about {
     display: flex;
     color: rgba(255, 255, 255, 1);
+    font-family: 'Lato', sans-serif;
     width: 65%;
     margin: 0 auto;
     margin-top: 20vh
@@ -762,7 +775,7 @@ a {
 
 
     .border-down {
-        margin-top: 8vh;
+        margin-top: 9vh;
         height: 15vh;
         background-color: #736C4D;
     }
