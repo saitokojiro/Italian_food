@@ -5,11 +5,14 @@
     margin: 0;
     padding: 0;
 
+
 }
+
 
 body {
     margin: auto;
     padding: auto;
+
 }
 
 .header {
@@ -417,7 +420,7 @@ transform-origin: center;*/
     position: absolute;
     /*! top: 1px; */
     background: rgba(115, 108, 77, 1);
-    opacity: 0.6;
+    mix-blend-mode: multiply;
     margin: 0;
     margin-top: -100vh;
 }
@@ -496,10 +499,6 @@ transform-origin: center;*/
     width: 65%;
 }
 
-.sec-bk-one {}
-
-.sec-bk-two {}
-
 .sec-bk-two>ul {
     font-size: 1.6em;
     text-decoration: none;
@@ -523,8 +522,8 @@ a {
 .bk-social {
     margin-top: 20vh;
 
-    margin-left: 80vh;
-    margin-right: 80vh
+    margin-left: 70vh;
+    margin-right: 60vh
 }
 
 .fa-facebook,
@@ -534,5 +533,292 @@ a {
     font-size: 3.5em;
     color: rgba(255, 255, 255, 1);
     margin: 0 15px;
+
+}
+
+@media screen and (max-width: 360px) {
+    html,
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .logo-cont {
+        display: none;
+    }
+
+
+    .sp-title-bl-o>span {
+        position: absolute;
+        width: 85%;
+        height: 5%;
+        margin-left: 25%;
+
+        font-size: 3em;
+
+    }
+
+    .book-btn {
+        margin-left: 25%;
+        margin-top: 20%;
+        position: absolute;
+        font-size: 2.1em;
+
+
+    }
+
+
+    .the {
+        margin-top: -200px;
+    }
+
+    .italian {
+        margin-top: -150px;
+
+    }
+
+    .restaurant {
+        margin-top: -100px;
+    }
+
+    /**********************************************************************/
+    .block-two-center>img {
+        position: absolute;
+        max-width: 30%;
+        height: auto;
+        /*left: -408px;*/
+        left: -15.3%;
+        top: 5%;
+    }
+
+    .block-desc {
+        position: absolute;
+        width: 15%;
+        height: 0px;
+        left: 10%;
+        top: 10%;
+    }
+
+    .block-desc>h2 {
+        font-size: 2.5em;
+    }
+
+    .block-desc-p {
+        font-size: 1em;
+    }
+
+    /**********************************************************************/
+
+    .bt-sect {
+        position: absolute;
+        margin-left: 10%;
+
+        margin-top: 20%
+    }
+
+    .bt-sect>img {
+        max-width: 70%;
+        height: 40%;
+        margin: 0 25%;
+    }
+
+    .bt-pr-b {
+        position: absolute;
+        margin-left: 65px;
+        margin-top: 100%;
+    }
+
+    .bt-pr-tl {
+        margin-left: -35%;
+
+        font-size: 2em;
+        width: 180%;
+
+    }
+
+    .bt-pr {
+        margin-top: 10%;
+        font-size: 1em;
+    }
+
+    .bt-btn {
+
+        font-size: 2em;
+        padding: 1.5%;
+
+    }
+
+    /**********************************************************************/
+    .bk-four-sec {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        width: 100%;
+        height: 65%;
+        margin-top: 5%
+    }
+
+    .bk-f-title {
+        width: 100%;
+
+    }
+
+    .bk-f-title>h2 {
+        text-align: center;
+        font-size: 3em;
+    }
+
+    .block_four_mp {
+        display: flex;
+        flex-flow: column;
+        margin: 0 auto;
+        width: 100%;
+        margin-top: 10%;
+    }
+
+    .pl_one {
+        display: flex;
+
+    }
+
+    .pl_one>img {
+        max-width: 40%;
+        height: auto;
+        margin-left: 30%;
+    }
+
+    .pl_one>span {
+        margin-top: 10px;
+        font-size: 1.5em;
+    }
+
+    /**********************************************************************/
+    .bkf-btn {
+        position: absolute;
+        z-index: 1;
+        border: none;
+        margin: 150% 15% 0;
+        width: 200px;
+
+        font-size: 3em;
+        padding-bottom: 1%;
+    }
+
+    .bkf-cut-img {
+        position: absolute;
+        max-width: 39.9%;
+        left: 60%;
+        margin-top: -100px;
+        opacity: 0.5;
+        overflow: hidden;
+    }
+
+    .bkf-tl-al {
+
+        font-size: 1.5em;
+    }
+
+    /**********************************************************************/
+    .block-seven {
+        font-size: 2em;
+    }
+
+
+    /**********************************************************************/
+
+    .mask_loc {
+        width: 50%;
+        position: absolute;
+        background: rgba(115, 108, 77, 1);
+        margin-top: -100.1vh;
+    }
+
+    .info-loc {
+        margin-top: -70vh;
+    }
+
+    .info-l-t {
+        font-size: 2.5em;
+        color: rgba(255, 255, 255, 1);
+    }
+
+    .info-l-p {
+        margin-top: 30px;
+        font-size: 1.5em;
+    }
+
+    .info-l-tm {
+        margin-top: 30px;
+        font-size: 1.5em;
+    }
+
+    .info-l-h {
+        font-size: 1.5em;
+
+    }
+
+
+    /**********************************************************************/
+
+
+    .border-down {
+        margin-top: 8vh;
+        height: 15vh;
+        background-color: #736C4D;
+    }
+
+    .sec-about {
+        display: flex;
+        color: rgba(255, 255, 255, 1);
+        width: 65%;
+        margin: 0 auto;
+        margin-top: 20vh
+    }
+
+    .sc-bk-title {
+        font-size: 1em;
+    }
+
+    .sc-bk-par {
+        font-size: 1em;
+        width: 65%;
+    }
+
+    .sec-bk-one {}
+
+    .sec-bk-two {}
+
+    .sec-bk-two>ul {
+        font-size: 1em;
+        text-decoration: none;
+        list-style: none
+    }
+
+
+    .sec-bk-three {
+        margin-left: 5%;
+    }
+
+    .sec-bk-three>ul {
+        font-size: 1em;
+        list-style: none
+    }
+
+    .bk-social {
+        margin-top: 3.8vh;
+
+        margin-left: 15vh;
+        margin-right: 10vh
+    }
+
+    .fa-facebook,
+    .fa-instagram,
+    .fa-twitter-square,
+    .fa-whatsapp {
+        font-size: 2em;
+        color: rgba(255, 255, 255, 1);
+        margin: 0 1px;
+
+    }
 
 }

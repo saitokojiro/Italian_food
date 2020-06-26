@@ -23,13 +23,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="assets\CSS\index.css">
+    <link rel="stylesheet" href="assets\CSS\menu.css">
     <title>Document</title>
 </head>
 
 <body>
-    <header>
-
-    </header>
     <div class="container">
         <div class="block-one">
             <div class="header">
@@ -42,15 +40,35 @@
 
                     </div>
                 </div>
+                <div id="wrap">
+                    <a href="#wrap" id="open">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                            x="0px" y="0px" width="34px" height="27px" viewBox="0 0 34 27"
+                            enable-background="new 0 0 34 27" xml:space="preserve">
+                            <rect fill="#FFFFFF" width="34" height="4" />
+                            <rect y="11" fill="#FFFFFF" width="34" height="4" />
+                            <rect y="23" fill="#FFFFFF" width="34" height="4" />
+                        </svg>
+                    </a>
+                    <a href="#" id="close">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                            x="0px" y="0px" width="34px" height="27px" viewBox="0 0 34 27"
+                            enable-background="new 0 0 34 27" xml:space="preserve">
+                            <rect fill="#FFFFFF" width="34" height="4" />
+                            <rect y="11" fill="#FFFFFF" width="34" height="4" />
+                            <rect y="23" fill="#FFFFFF" width="34" height="4" />
+                        </svg>
+                    </a>
+                    <ul class="menu-list">
+                        <li class="menu-li">Home</li>
+                        <li class="menu-li">About</li>
+                        <li class="menu-li">Order</li>
+                        <li class="menu-li">Contact Us</li>
+                    </ul>
 
-                <ul class="menu-list">
-                    <li class="menu-li">Home</li>
-                    <li class="menu-li">About</li>
-                    <li class="menu-li">Order</li>
-                    <li class="menu-li">Contact Us</li>
-                </ul>
+
+                </div>
             </div>
-
 
             <div class="di-title-bl-o">
                 <div class="sp-title-bl-o">
@@ -61,7 +79,6 @@
                 </div>
                 <button class="book-btn">Book Now</button>
             </div>
-
         </div>
         <div class="block-two">
             <div class="block-two-center">
@@ -70,7 +87,8 @@
                     <h2>About Us</h2>
                     <span class="block-desc-p">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
+                        labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo
+                        viverra
                         maecenas accumsan lacus vel facilisis.
                     </span>
                 </div>
@@ -190,7 +208,8 @@
 <script>
     var mymap = L.map('mapid', {
         zoomControl: false,
-        scrollWheelZoom: false
+        scrollWheelZoom: false,
+        dragging: false
     }).setView([47.6140077, -122.3283304], 20);
     L.tileLayer(
         'https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
