@@ -16,6 +16,8 @@ body {
 }
 
 .header {
+    position: fixed;
+    z-index: 999999;
     width: 100%;
     height: 18%;
     background-color: #736c4d;
@@ -51,7 +53,7 @@ transform-origin: center;*/
     position: absolute;
     width: 34%;
     left: 52%;
-    top: 5%;
+    top: 35%;
 }
 
 .menu-li {
@@ -573,7 +575,7 @@ a {
         display: flex;
         position: absolute;
         left: 23%;
-        top: 5%;
+        top: 25%;
     }
 
     .menu-li {
