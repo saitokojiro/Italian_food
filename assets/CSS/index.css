@@ -549,17 +549,183 @@ a {
 
 }
 
-@media screen and (max-width: 360px) {
-    html,
+@media screen and (max-width: 960px) {
+    * {
+        /*outline: 2px solid red;
+        outline-offset: -1px;
+        margin: auto;
+        padding: auto;
+        outline-style: dotted;*/
+
+    }
 
     body {
         overflow-x: hidden;
     }
 
     .logo-cont {
+        position: absolute;
+        left: 15px;
+        top: 38.442px;
+    }
+
+    .menu-list {
+        display: flex;
+        position: absolute;
+        left: 23%;
+        top: 5%;
+    }
+
+    .menu-li {
+        top: 10px;
+        position: absolute;
+
+    }
+
+    .menu-li:nth-of-type(1) {
+        top: 20px;
+        position: absolute;
+        left: 170px;
+        font-size: 2em;
+    }
+
+    .menu-li:nth-of-type(2) {
+        top: 20px;
+        position: absolute;
+        left: 290px;
+        font-size: 2em;
+    }
+
+    .menu-li:nth-of-type(3) {
+        top: 20px;
+        position: absolute;
+        left: 424px;
+        font-size: 2em;
+    }
+
+    .menu-li:nth-of-type(4) {
+        top: 20px;
+        position: absolute;
+        left: 533px;
+        font-size: 2em;
+    }
+
+    .di-title-bl-o {
+        position: absolute;
+        top: 50%;
+    }
+
+    .book-btn {
+        margin-left: 79%;
+        margin-top: 0%;
+    }
+
+    .block-two-center {
+        position: absolute;
+        left: -60.3%;
+        width: 100%;
+    }
+
+    .block-desc {
+        position: absolute;
+        left: 890px;
+    }
+
+    .food-spag {
+        max-width: 100%;
+        height: 65%;
+        margin-top: 156px;
+        margin-left: 0;
+    }
+
+    .bt-pr-b {
+        margin-right: -100px;
+        margin-left: 400px;
+    }
+
+    .block_four_mp {
+        display: flex;
+        width: 940px;
+        margin-top: 5%;
+    }
+
+    .pl_one>img {
+        max-width: 70%;
+        height: auto;
+        text-align: center;
+    }
+
+    .pl_one {
+        margin-top: 100px;
+    }
+
+    .pl_one>span {
+        text-align: center;
+        margin-left: -37px;
+        margin-right: 38px;
+        font-size: 2em;
+    }
+
+    .bkf-tl-sec {
+        font-size: 1em;
+        width: 90%;
+    }
+
+    .bkf-tl-al {
+        margin-left: 3%;
+        color: rgba(255, 255, 255, 1);
+        font-family: 'Lato', sans-serif;
+    }
+
+    .bkf-btn {
+        margin: 60% 10% 0;
+        width: 473px;
+        font-size: 5em;
+    }
+
+    .info-l-t {
+        font-size: 5em;
+        margin-left: -5%;
+        /* font-family: 'Lato', sans-serif; */
+        /* color: rgba(255, 255, 255, 1); */
+    }
+
+    .mask_loc {
+        width: 40%;
+    }
+
+    .bk-social {
+        display: flex;
+        margin-top: 0vh;
+        margin-left: 40%;
+    }
+
+    .sec-about {
+        display: flex;
+        margin-top: 15vh;
+    }
+
+    .border-down {
+        margin-top: 10vh;
+    }
+
+}
+
+
+@media screen and (max-width: 360px) {
+
+    body {
+        overflow-x: hidden;
+
+    }
+
+    .logo-cont {
         display: none;
     }
 
+    .block-one {
+        width: auto;
+    }
 
     .sp-title-bl-o>span {
         position: absolute;
@@ -595,20 +761,26 @@ a {
     }
 
     /**********************************************************************/
+    .block-two-center {
+        position: absolute;
+        left: -20.3%;
+        width: 100%;
+    }
+
     .block-two-center>img {
         position: absolute;
-        max-width: 30%;
+        max-width: 148%;
         height: auto;
-        /*left: -408px;*/
-        left: -15.3%;
-        top: 5%;
+        /* left: -408px; */
+        left: -50.3%;
+        top: 10%;
     }
 
     .block-desc {
         position: absolute;
         width: 15%;
         height: 0px;
-        left: 10%;
+        left: 152px;
         top: 10%;
     }
 
@@ -617,20 +789,26 @@ a {
     }
 
     .block-desc-p {
+        width: 252px;
         font-size: 1em;
+
     }
 
     /**********************************************************************/
 
+    .block-three {
+        width: auto;
+    }
+
     .bt-sect {
         position: absolute;
         margin-left: 10%;
-
+        width: 55%;
         margin-top: 20%
     }
 
-    .bt-sect>img {
-        max-width: 70%;
+    .food-spag {
+        max-width: 100%;
         height: 40%;
         margin: 0 25%;
     }
@@ -638,15 +816,15 @@ a {
     .bt-pr-b {
         position: absolute;
         margin-left: 65px;
-        margin-top: 100%;
+        margin-right: 114px;
+        margin-top: 130%;
     }
 
     .bt-pr-tl {
-        margin-left: -35%;
-
+        margin-left: -63px;
+        margin-right: 142px;
         font-size: 2em;
         width: 180%;
-
     }
 
     .bt-pr {
@@ -662,6 +840,10 @@ a {
     }
 
     /**********************************************************************/
+    .block-four {
+        width: auto;
+    }
+
     .bk-four-sec {
         display: flex;
         flex-direction: column;
@@ -686,11 +868,11 @@ a {
         flex-flow: column;
         margin: 0 auto;
         width: 100%;
-        margin-top: 10%;
     }
 
     .pl_one {
         display: flex;
+        margin-top: auto;
 
     }
 
@@ -702,17 +884,22 @@ a {
 
     .pl_one>span {
         margin-top: 10px;
+        margin-left: 5%;
         font-size: 1.5em;
     }
 
     /**********************************************************************/
+    .block-five {
+        width: auto;
+    }
+
     .bkf-btn {
         position: absolute;
         z-index: 1;
         border: none;
         margin: 150% 15% 0;
         width: 200px;
-
+        margin-top: 400px;
         font-size: 3em;
         padding-bottom: 1%;
     }
@@ -727,17 +914,21 @@ a {
     }
 
     .bkf-tl-al {
-
+        margin-top: 250px;
         font-size: 1.5em;
     }
 
     /**********************************************************************/
     .block-seven {
         font-size: 2em;
+        width: auto;
     }
 
 
     /**********************************************************************/
+    .block-eight {
+        width: auto;
+    }
 
     .mask_loc {
         width: 50%;
@@ -773,6 +964,9 @@ a {
 
     /**********************************************************************/
 
+    .block-nine {
+        width: auto;
+    }
 
     .border-down {
         margin-top: 9vh;
